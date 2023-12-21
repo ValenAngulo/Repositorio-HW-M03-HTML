@@ -1,3 +1,7 @@
+html, body{
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 10px;
@@ -73,13 +77,38 @@ body {
 }
 
 .subtitle-box{
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
   text-align: center;
-  font-size: 15px;
   width: 800px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
 }
 
+.subtitle{
+  font-size: 30px;
+}
 .subtitle-container{
   color: rgb(150, 12, 12);
-  font-size: 18px;
+}
+
+.info-container{
+  font-size: 20px;
+}
+
+.link-container{
+  display: flex;
+  justify-content: center;
+}
+
+.link-advice{
+  background-color: #000000;
+  border: 2px solid #db0000;
+  border-radius: 2em;
+  color: #ffffff;
+  margin: 1em;
+  padding: 1em;
 }
