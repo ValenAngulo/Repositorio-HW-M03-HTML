@@ -4,11 +4,11 @@ html, body{
 
 body {
     font-family: 'Arial', sans-serif;
-    margin: 10px;
+    /* margin: 10px; */
   }
 
   /* HEADER */
-.title-container{
+.title__container{
   background-color: #000;
   color: #fff;
   border-radius: 10px;
@@ -20,12 +20,12 @@ body {
   font-size: 40px;
 }
 
-.title-highlight{
+.title__highlight{
   color: #ff0000;
   text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
 }
 
-.header-container{
+.header__container{
   background-color: #000000;
   border: 2px solid #db0000;
   border-radius: 2em;
@@ -46,7 +46,6 @@ body {
   cursor: pointer;
   color: #fff;
   text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-  /* text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); */
   transition: text-shadow 0.2s ease-in-out;
 }
 
@@ -61,7 +60,7 @@ body {
 }
 
 /* MAIN */
-.img-home{
+.img__home{
   margin: 1em;
   background-color: #000;
 }
@@ -76,7 +75,7 @@ body {
   
 }
 
-.subtitle-box{
+.subtitle__box{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -91,24 +90,70 @@ body {
 .subtitle{
   font-size: 30px;
 }
-.subtitle-container{
+.subtitle__container{
   color: rgb(150, 12, 12);
 }
 
-.info-container{
+.info__container{
   font-size: 20px;
 }
 
-.link-container{
+.link__container{
   display: flex;
   justify-content: center;
 }
 
-.link-advice{
+.link__advice{
   background-color: #000000;
   border: 2px solid #db0000;
   border-radius: 2em;
   color: #ffffff;
   margin: 1em;
   padding: 1em;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #000;
+}
+
+.footer__newsletter{
+  color: #fff;
+  padding: 30px 0px 10px 40px;
+  width: 400px;
+  margin: 0;
+}
+
+
+.footer__inputs{
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.footer__input{
+  background-color: transparent;
+  height: 30px;
+  display: flex;
+  margin: 0px 10px 0px 10px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-size: 1rem;
+  outline: none;
+  color: #db0000;
+}
+
+.footer__submit{
+  display: inline-block;
+  height: 40px;
+  padding: 0 25px;
+  margin-left: 20px;
+  background-color: #db0000;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 15px; 
+  cursor: pointer;
+  font-weight: bold;
 }

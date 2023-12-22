@@ -8,60 +8,63 @@
 </head>
 <body>
     <header>
-            <div class="title-container">
-                <h1 id="title">Learn to learn <span class="title-highlight">easier</span>, <span class="title-highlight">faster</span>, <span class="title-highlight">better</span>.</h1>
+            <div class="title__container">
+                <h1 id="title">Learn to learn <span class="title__highlight">easier</span>, <span class="title__highlight">faster</span>, <span class="title__highlight">better</span>.</h1>
             </div>
-        <div class="header-container">
+        <div class="header__container">
             <div class="item home"><a href="./index.html" class="item home">HOME</a></div>
             <div class="item home"> <a href="./advices.html" class="item home">DISCIPLINE</a></div>
-            <div class="item home"><a href="#subtitle-focus" class="item home">METHODS</a></div>
-            <div class="item">NO EXCUSES</div>
+            <div class="item home"><a href="#subtitle__focus" class="item home">METHODS</a></div>
+            <div class="item">BETTER</div>
             <div class="item">ABOUT US</div>
         </div>
     </header>
 
     <main>
-        <div class="img-home">
+        <div class="img__home">
             <img src="./MotivationalQuote.jpg" alt="Code" class="img1">
         </div>
-        <section class="subtitle-box">
-            <div class="subtitle-container">
+        <section class="subtitle__box">
+            <div class="subtitle__container">
                 <h2 class="subtitle">Tired of all the time you spend learning without learning anything at all?</h2>
             </div>
-            <div class="info-container">
-                <p>We have the solution! We have made short but efficient courses for you to learn in an <span class="title-highlight">easier</span>, <span class="title-highlight">faster</span>, <span class="title-highlight">better</span> way than you normally do. With an introduction of how to split your time correctly, organize you schedule and how to learn to study.</p>
+            <div class="info__container">
+                <p>We have the solution! We have made short but efficient courses for you to learn in an <span class="title__highlight">easier</span>, <span class="title__highlight">faster</span>, <span class="title__highlight">better</span> way than you normally do. With an introduction of how to split your time correctly, organize you schedule and how to learn to study.</p>
             </div>
         </section>
-        <section class="subtitle-box">
-                <div id="subtitle-focus" class="subtitle-container">
+        <section class="subtitle__box">
+                <div id="subtitle__focus" class="subtitle__container">
                     <h3 class="subtitle focus">Are you aware of the "Pomodoro" method?</h3>
                 </div>
-                <div class="info-container">
+                <div class="info__container">
                     <p>
-                        The Pomodoro method is a <span class="title-highlight">full focus</span>, work or study during 25 minutes, then you have a little 5 minutes break when the time is off. After repeating it 4 times, you have a longer 30 minutes break before you start again.
+                        The Pomodoro method is a <span class="title__highlight">full focus</span>, work or study during 25 minutes, then you have a little 5 minutes break when the time is off. After repeating it 4 times, you have a longer 30 minutes break before you start again.
                     </p>
                 </div>
-                <div class="info-container">
+                <div class="info__container">
                     <p>
                         The idea of it is to concentrate the most on the task you have to do without any distractions you could have. This way you develop an effective productivity, organize your time more efficiently and probably achieve multiple goals throughout the day.
                     </p>
                 </div>
         </section>
         <section>
-            <div class="link-container">
-                <a href="./advices.html" class="link-advice">BEST ADVICES FOR IMPROVING YOUR DISCIPLINE</a>
+            <div class="link__container">
+                <a href="./advices.html" class="link__advice">BEST ADVICES FOR IMPROVING YOUR DISCIPLINE</a>
             </div>
         </section>
     </main>
 
 
     <footer class="footer">
-        <div class="footer-h2"><h2>Be part of the Big Comunity!</h2></div>
+        
+        <form class="footer__form">
+            <h2 class="footer__newsletter">Be part of the Learn Community!</h2>
 
-        <form class="footer-form">
-            <input type="name" name="name" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <button class="footer-form-button">Send</button>
+            <div class="footer__inputs">
+                <input type="name" name="name" placeholder="Name" autocomplete="on" required class="footer__input">
+                <input type="email" name="email" placeholder="Email" autocomplete="on" required class="footer__input">
+                <input type="submit" name="submit" value="SEND" class="footer__submit">
+            </div>
         </form>
     </footer>
 

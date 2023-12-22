@@ -5,42 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concentration Advices</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="advices.css">
 </head>
 <body>
     <header>
-        <div class="title-container">
-            <h1 id="title">Learn to learn <span class="title-highlight">easier</span>, <span class="title-highlight">faster</span>, <span class="title-highlight">better</span>.</h1>
+        <div class="title__container">
+            <h1 id="title">Learn to learn <span class="title__highlight">easier</span>, <span class="title__highlight">faster</span>, <span class="title__highlight">better</span>.</h1>
         </div>
-    <div class="header-container">
+    <div class="header__container">
         <div class="item home"><a href="./index.html" class="item home">HOME</a></div>
         <div class="item home"> <a href="./advices.html" class="item home">DISCIPLINE</a></div>
-        <div class="item home"><a href="#subtitle-focus" class="item home">METHODS</a></div>
-        <div class="item">NO EXCUSES</div>
+        <div class="item home"><a href="index.html#subtitle__focus" class="item home">METHODS</a></div>
+        <div class="item">BETTER</div>
         <div class="item">ABOUT US</div>
     </div>
-</header>
-    <section>
-        <div>
-            <h1>Here are some advices for a better discipline.</h1>
-        </div>
-        <ol>
-            <li>Better sleep.</li>
-                <ul>
-                    <li>A good rest can help you split your energy throughout your day. It is important to take care of the time you spent sleeping. Try not to go to bed too late!!!</li>
-                </ul>
-            <li>Make a list.</li>
-                <ul>
-                    <li>Start you day making a list with the tasks you have to do. That way you can prioritize the important things and be aware of the objetives you have that day. It also gives you dopamine when you mark your taks done!!!</li>
-                </ul>
-            <li>Emininate distractions.</li>
-                <ul>
-                    <li>Get rid of the things that can distract you from your objetives. Put your phone away (better if it is in silence mode), do not check for social media, be the most alone posible. You can also add calm music, better if it is without lyrics!!!</li>
-                </ul>
-        </ol>
-        <img src="Concentrate.jpg" alt="Concentrate">
-    </section>
-    <div>
+    </header>
+
+    <main>
+
+        <section >
+            <div class="subtitle__container">
+                <h1 class="subtitle">Here are some advices for a better discipline.</h1>
+            </div>
+            <div class="list_container">
+                <div class="list__container">
+                    <ol class="list">
+                        <li class="list__1">Better sleep.</li>
+                        <ul>
+                            <li class="list__1_1">A good rest can help you split your energy throughout your day. It is important to take care of the time you spent sleeping. Try not to go to bed too late!!!</li>
+                        </ul>
+                        <li class="list__1">Make a list.</li>
+                        <ul>
+                            <li class="list__1_1">Start you day making a list with the tasks you have to do. That way you can prioritize the important things and be aware of the objetives you have that day. It also gives you dopamine when you mark your taks done!!!</li>
+                        </ul>
+                        <li class="list__1">Emininate distractions.</li>
+                        <ul>
+                            <li class="list__1_1">Get rid of the things that can distract you from your objetives. Put your phone away (better if it is in silence mode), do not check for social media, be the most alone posible. You can also add calm music, better if it is without lyrics!!!</li>
+                        </ul>
+                    </ol>
+                </div>
+                    <img src="Concentrate.jpg" alt="Concentrate" class="img__concentrate">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
         
-    </div>
+        <form class="footer__form">
+            <h2 class="footer__newsletter">Be part of the Learn Community!</h2>
+
+            <div class="footer__inputs">
+                <input type="name" name="name" placeholder="Name" autocomplete="on" required class="footer__input">
+                <input type="email" name="email" placeholder="Email" autocomplete="on" required class="footer__input">
+                <input type="submit" name="submit" value="SEND" class="footer__submit">
+            </div>
+        </form>
+    </footer>
 </body>
 </html>

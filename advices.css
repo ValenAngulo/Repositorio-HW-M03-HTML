@@ -1,0 +1,32 @@
+.list__1{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+    color: #ff0000;
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.8);
+}
+.list__1_1{
+    font-size: 18px;
+    width: 800px;
+}
+
+.list_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+
+ /* .img__container{
+    margin: 1em;
+    background-color: #000;
+  } */
+  
+  .img__concentrate{
+    border-radius: 10px;
+    margin: 0;
+    width: 400px;
+    height: 250px;
+    
+  }
